@@ -45,6 +45,8 @@ public class MainAluno {
 
             JOptionPane.showMessageDialog(null, String.format("Aluno1 \nRm: %s \nNome: %s \nIdade: %s",aluno1.getRegistroMatricula(), aluno1.getNomeCompleto(), aluno1.calcularIdadeCompleta(dataAtual)));
             JOptionPane.showMessageDialog(null, String.format("Aluno2 \nRm: %s \nNome: %s \nIdade: %s",aluno2.getRegistroMatricula(), aluno2.getNomeCompleto(), aluno2.calcularIdadeCompleta(dataAtual)));
+            JOptionPane.showMessageDialog(null, String.format("Aluno3 \nRm: %s \nNome: %s \nIdade: %s",aluno3.getRegistroMatricula(), aluno3.getNomeCompleto(), aluno3.calcularIdadeCompleta(dataAtual)));
+            JOptionPane.showMessageDialog(null, String.format("Aluno4 \nRm: %s \nNome: %s \nIdade: %s",aluno4.getRegistroMatricula(), aluno4.getNomeCompleto(), aluno4.calcularIdadeCompleta(dataAtual)));
 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
